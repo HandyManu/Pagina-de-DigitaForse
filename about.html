@@ -138,7 +138,7 @@
                                     única, ofreciendo a nuestros usuarios opciones superiores que les permitan navegar
                                     con confianza y seguridad en el mundo digital.
                                 </p>
-                                <button type="button" >
+                                <button type="button">
                                     <a href="index.html">MENU</a>
                                 </button>
 
@@ -162,106 +162,91 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="footer_logo">
-                                    <a href="index.html"><img src="images/digitalForce (1).png" alt="logo" width="50%"/></a>
+                                    <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="address">
-                                    <h3>Información de Contacto:</h3>
+                                    <h3>Direccion</h3>
                                     <p>
-                                        Dirección: Avenida Aguilares 218, San Salvador, El Salvador. 
-                                        <br> Tel: +1 123 456 789
-                                        <br> Fax: +1 123 456 789
-                                        <br> Correo: info@digitalforce.com</p>
+                                        Direccion:67 Avenida Sur 103
+                                        <br> Tel:(+503)1234-5678
+
+                                        <br> Email: DigitalForce@gmail.com
+                                    </p>
                                 </div>
                             </div>
-                            <div class="col-md-12">
-                                <ul class="lik">
-
-                                    <li> <a href="https://es-la.facebook.com/" target="_blank"><img src="images/fb.png" alt="Facebook" /></a></li>
-                                    <li> <a href="https://twitter.com/" target="_blank"><img src="images/tw.png" alt="Twitter"/></a></li>
-
-
-                                </ul>
-
-                            </div>
+                            <p>© DigitalForce. Todos los derechos reservados</p>
                         </div>
                     </div>
-                    <div class="copyright">
-                        <div class="container">
-                            <p>© 2024 Todos los Derechos Reservados. | DigitalForce</p>
-                        </div>
-                    </div>
+                    <!-- end footer -->
+
+
                 </div>
 
-            </fooetr>
-            <!-- end footer -->
+                <div class="overlay"></div>
+                <!-- Javascript files-->
+                <script src="js/jquery.min.js"></script>
+                <script src="js/popper.min.js"></script>
+                <script src="js/bootstrap.bundle.min.js"></script>
+                <script src="js/owl.carousel.min.js"></script>
+                <script src="js/custom.js"></script>
+                <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 
-        </div>
+                <script src="js/jquery-3.0.0.min.js"></script>
 
-        <div class="overlay"></div>
-        <!-- Javascript files-->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <script src="js/owl.carousel.min.js"></script>
-        <script src="js/custom.js"></script>
-        <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+                <script type="text/javascript">
+                    $(document).ready(function () {
+                        $("#sidebar").mCustomScrollbar({
+                            theme: "minimal"
+                        });
 
-        <script src="js/jquery-3.0.0.min.js"></script>
+                        $('#dismiss, .overlay').on('click', function () {
+                            $('#sidebar').removeClass('active');
+                            $('.overlay').removeClass('active');
+                        });
 
-        <script type="text/javascript">
-            $(document).ready(function () {
-                $("#sidebar").mCustomScrollbar({
-                    theme: "minimal"
-                });
-
-                $('#dismiss, .overlay').on('click', function () {
-                    $('#sidebar').removeClass('active');
-                    $('.overlay').removeClass('active');
-                });
-
-                $('#sidebarCollapse').on('click', function () {
-                    $('#sidebar').addClass('active');
-                    $('.overlay').addClass('active');
-                    $('.collapse.in').toggleClass('in');
-                    $('a[aria-expanded=true]').attr('aria-expanded', 'false');
-                });
-            });
-        </script>
-        <style>
-            #owl-demo .item {
-                margin: 3px;
-            }
-
-            #owl-demo .item img {
-                display: block;
-                width: 100%;
-                height: auto;
-            }
-        </style>
-
-        <script>
-            $(document).ready(function () {
-                var owl = $('.owl-carousel');
-                owl.owlCarousel({
-                    margin: 10,
-                    nav: true,
-                    loop: true,
-                    responsive: {
-                        0: {
-                            items: 1
-                        },
-                        600: {
-                            items: 2
-                        },
-                        1000: {
-                            items: 3
-                        }
+                        $('#sidebarCollapse').on('click', function () {
+                            $('#sidebar').addClass('active');
+                            $('.overlay').addClass('active');
+                            $('.collapse.in').toggleClass('in');
+                            $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+                        });
+                    });
+                </script>
+                <style>
+                    #owl-demo .item {
+                        margin: 3px;
                     }
-                })
-            })
-        </script>
+
+                    #owl-demo .item img {
+                        display: block;
+                        width: 100%;
+                        height: auto;
+                    }
+                </style>
+
+                <script>
+                    $(document).ready(function () {
+                        var owl = $('.owl-carousel');
+                        owl.owlCarousel({
+                            margin: 10,
+                            nav: true,
+                            loop: true,
+                            responsive: {
+                                0: {
+                                    items: 1
+                                },
+                                600: {
+                                    items: 2
+                                },
+                                1000: {
+                                    items: 3
+                                }
+                            }
+                        })
+                    })
+                </script>
 
 </body>
 
