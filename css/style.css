@@ -597,7 +597,7 @@
 /** pricing **/
  .pricing {
      padding-top: 90px;
-     background: url(../images/pricing_bg.jpg);
+     background: url(../images/difBlanco.png);
      background-size: 100% 100%;
      background-repeat: no-repeat;
 }
@@ -715,7 +715,7 @@
 /** end our barbers **/
 /** contact **/
  .contact {
-    background: url(../images/contact_bg.jpg);
+    background: url(../images/difNegro.png);
      background-size: 100% 100%;
      background-repeat: no-repeat;
      padding: 90px 0;
