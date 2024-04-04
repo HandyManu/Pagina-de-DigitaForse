@@ -94,6 +94,12 @@
      max-width: 100%;
      height: auto;
 }
+
+header.logo{
+height: 30cm;
+height: 4cm;
+
+}
  :focus {
      outline: 0;
 }
